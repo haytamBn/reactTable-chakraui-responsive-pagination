@@ -217,7 +217,6 @@ const PaginationPerso = (props: PaginationPersoProps): React.ReactElement => {
                     w="35px"
                     h="35px"
                     fontWeight="bold"
-                    color="gray.300"
                     fontSize="sm"
                     onClick={(): void => handleClick(Number(page))}
                   >
